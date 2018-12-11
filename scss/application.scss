@@ -35,7 +35,7 @@ $green-light-color: #55a42b;
 	background:linear-gradient(135deg, #041c33, #191f24);
 }
 
-a.btn-open {
+.btn-open {
 	border-radius: 4px;
   background-color: #69a140;
   color: #fff;
@@ -44,6 +44,9 @@ a.btn-open {
   transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
+  &.dark-green {
+		background-color: #006d31;
+	}
   &:hover {
   	background: #55a42b;
     transform: scale(1.1);
@@ -280,6 +283,9 @@ header {
 				    transition: .5s;
 				    -moz-transition: .5s;
 				    -webkit-transition: .5s;
+				    &.dark-green {
+				    	background-color: #006d31;
+				    }
 				    &:hover {
 		    	    -webkit-transform: scale(1.07);
 					    -ms-transform: scale(1.07);
